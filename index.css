@@ -1,0 +1,59 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.15;
+}
+ a:hover {
+    color: #800080;
+ }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #800080;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.logo-wrapper {
+    display: flex;
+    gap: 6px;
+}
+
+.logo-disc {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    gap: 25px;
+}
+
+.logo-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.logo-subtitle {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 6px;
+}
+
+.logo {
+    color: #800080;
+}
