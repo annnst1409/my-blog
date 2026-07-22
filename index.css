@@ -8,6 +8,10 @@ ul {
     list-style: none;
 }
 
+p, h1 {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -41,10 +45,11 @@ a {
 .navigation {
     display: flex;
     gap: 25px;
+    font-weight: 500;
 }
 
 .logo-title {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -56,4 +61,39 @@ a {
 
 .logo {
     color: #800080;
+}
+
+.hero {
+    padding: 60px;
+    background-color: #e30be3;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.25;
+
+}
+
+.slogan {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero-image {
+    height: 250px;
+}
+
+.hero-text {
+    flex-basis: 60%;
+}
+
+.computer-image {
+    display: flex;
+    justify-content: center;
 }
